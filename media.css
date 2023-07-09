@@ -63,4 +63,14 @@
        padding: 10px 0;
      
     }
+
+    #red-dot,#red-dot-ear,#red-dot-phone{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 115px;
+        height: 190px;
+        z-index: 10; 
+    }
+    
 }
