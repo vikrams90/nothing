@@ -1,0 +1,66 @@
+@media (max-width:768px) {
+    .drop-content, .ear-2-content, .phone-2-content, .phone-1-content, .ear-1-content, .beta-content,.about-content{
+        flex-direction: column;
+    }
+
+    .drop-image, .ear-2-image, .phone-2-image, .phone-1-image, .ear-1-image, .beta-image, .about-image{
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .drop-text,.ear-2-text,.phone-2-text, .phone-1-text, .ear-1-text, .beta-text, .about-text{
+        width: 100%;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .drop-text h1,.ear-2-text h1,.phone-2-text h1, .phone-1-text h1, .ear-1-text h1, .beta-text h1, .about-text h1{
+        font-size: 28px;
+    }
+
+    .drop-text a,.ear-2-text a,.phone-2-text a, .phone-1-text a, .ear-1-text a, .beta-text a, .about-text a{
+        font-size: 14px;
+    }
+
+    .drop-text p,.ear-2-text p,.phone-2-text p, .phone-1-text p, .ear-1-text p, .beta-text p, .about-text p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .drop-vrt, .ear-2-vrt, .phone-2-vrt, .phone-1-vrt, .ear-1-vrt, .beta-vrt, .about-vrt{
+        font-size: 80px;
+        padding-left: 20px;
+    }
+
+    .review-list{
+        flex-direction: column;
+    }
+
+    .footer-upper, .footer-lower{
+        display: none;
+    }
+
+    .footer-mobile{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+        color: rgb(85, 85, 85);
+        font-family: 'DotGothic16', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .footer-mobile ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-mobile>ul>li{
+       border-bottom: 1px dotted #000000;
+       padding: 10px 0;
+     
+    }
+}

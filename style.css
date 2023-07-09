@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=GFS+Didot&family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: relative;
+
+}
+
+.nav-1{
+    padding: 20px 0;
+   
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    display: flex;
+    z-index: 99;
+}
+
+.nav-1 ul{
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    /* gap: 80px; */
+}
+
+.nav-1 ul li{
+    font-family: 'DotGothic16', sans-serif;
+}
+
+main{
+    background-color: #f4f4f2;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.drop{
+    position: relative;
+}
+
+.ear-2, .phone-2, .phone-1,.ear-1, .beta, .about-us{
+    position: relative;
+}
+
+.drop-content, .ear-2-content, .phone-2-content, .phone-1-content, .ear-1-content, .beta-content,.about-content{
+    display: flex;
+}
+
+.drop-vrt, .ear-2-vrt, .phone-2-vrt, .phone-1-vrt, .ear-1-vrt, .beta-vrt, .about-vrt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    writing-mode: vertical-lr;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 140px;
+    font-weight: 500;
+}
+
+.drop-vrt, .about-vrt{
+    color: #ffffff;
+}
+
+.ear-2-vrt,.ear-1-vrt,.phone-1-vrt{
+    color: #000000;
+    z-index: 4;
+}
+
+.drop-image, .ear-2-image, .phone-2-image, .phone-1-image, .ear-1-image, .beta-image, .about-image{
+    width: 70%;
+    height: 95vh;
+
+}
+
+.drop-image img, .ear-2-image img, .phone-2-image img, .phone-1-image img, .ear-1-image img, .beta-image img, .about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ear-2-image, .ear-1-image, .phone-1-image{
+    position: relative;
+    z-index: 3;
+}
+
+.drop-text,.ear-2-text,.phone-2-text, .phone-1-text, .ear-1-text, .beta-text, .about-text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 50px 20px;
+    font-family: 'GFS Didot', serif;
+    letter-spacing: 3px;
+}
+
+.phone-1-text span, .ear-1-text span, .beta-text span, .about-text span{
+    gap: 50px;
+    display: flex;
+}
+
+.ear-2-text,.phone-2-text,.phone-1-text, .ear-1-text{
+    padding-bottom:0 ;
+    gap: 30px;
+}
+
+.beta-text, .about-text{
+    gap: 30px;
+}
+
+.drop-text p,.ear-2-text p,.phone-2-text p, .phone-1-text p, .ear-1-text p, .beta-text p, .about-text p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.drop-text h1,.ear-2-text h1,.phone-2-text h1, .phone-1-text h1, .ear-1-text h1, .beta-text h1, .about-text h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.drop-text button,.ear-2-text button,.phone-2-text button, .phone-1-text button, .ear-1-text button, .beta-text button, .about-text button{
+    background-color: #002F6C;
+    border-color: #002F6C;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 2px 0;
+    border-radius: 20px;
+}
+
+.review{
+    padding: 80px 0;
+}
+
+.review-container{
+    display: flex;
+    justify-content: center;
+}
+
+.review-list{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    text-align: center;
+}
+
+.review-list h1{
+    font-size: 24px;
+ font-family: 'GFS Didot', serif;
+}
+
+.review-list p{
+    font-size: 24px;
+}
+
+footer{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+
+.footer-upper{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 80px;
+}
+
+.footer-links ul, .footer-upper ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 2px;
+}
+
+.footer-links ul h1{
+    font-size: 14px;
+}
+
+.footer-upper ul h1{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 300;
+}
+
+
+.footer-lower{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.lower-links{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.footer-mobile{
+    display: none;
+}
+
+#red-dot,#red-dot-ear,#red-dot-phone{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 230px;
+    height: 380px;
+    z-index: 10; 
+}
+
